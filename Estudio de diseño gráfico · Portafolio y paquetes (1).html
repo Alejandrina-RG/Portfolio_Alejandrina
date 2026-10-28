@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Estudio de diseño gráfico · Portafolio y paquetes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#09090b;--glass:rgba(255,255,255,.07);--line:rgba(255,255,255,.12);--ink:#f4f4f6;--mute:#9a9aa8;--yel:#e9f84c;--white:#fff;--on-white:#0b0b0d;
+--f:'Inter Tight','Helvetica Neue',Arial,system-ui,sans-serif;--s:'Dancing Script','Brush Script MT',cursive;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 var(--f);overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;background:radial-gradient(60% 40% at 50% 0,rgba(110,90,255,.16),transparent 70%),radial-gradient(40% 30% at 100% 60%,rgba(0,190,200,.1),transparent 70%);z-index:-1}
+h1,h2,h3{margin:0;font-weight:500;letter-spacing:-.035em;line-height:1.02}
+.g{background:linear-gradient(180deg,#fff 30%,#8d8d98);-webkit-background-clip:text;background-clip:text;color:transparent}
+.g2{background:linear-gradient(90deg,#e24cff,#2fb0ff 55%,#fff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sc{font-family:var(--s);font-weight:500;font-size:1.12em;letter-spacing:0}
+.w{max-width:1120px;margin:0 auto;padding:0 20px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--yel);outline-offset:3px}
+/* nav */
+nav{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:20px 0}
+nav .logo{font-size:30px;font-weight:700;line-height:1}
+nav .mid{display:flex;gap:4px;background:var(--glass);border:1px solid var(--line);border-radius:999px;padding:6px;backdrop-filter:blur(12px)}
+nav .mid a{text-decoration:none;font-size:14px;padding:8px 18px;border-radius:999px;color:var(--mute)}
+nav .mid a:first-child{color:#fff;background:rgba(255,255,255,.1)}
+nav .r{justify-self:end;display:flex;gap:18px;align-items:center;font-size:14px}
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:12px;background:var(--white);color:var(--on-white);border:0;border-radius:999px;padding:10px 10px 10px 22px;font:500 15px var(--f);cursor:pointer;text-decoration:none}
+.btn.sm{padding:11px 22px}
+.btn .ar{width:30px;height:30px;border-radius:50%;background:var(--yel);display:grid;place-items:center;font-size:15px}
+.btn.ghost{background:var(--glass);color:var(--ink);border:1px solid var(--line)}
+/* hero */
+.hero{text-align:center;padding:54px 0 0;position:relative}
+.eyebrow{display:inline-flex;gap:8px;align-items:center;font-size:13px;color:var(--mute)}
+.eyebrow b{color:var(--yel);font-weight:500;background:rgba(233,248,76,.1);padding:3px 9px;border-radius:6px}
+.hero h1{font-size:clamp(40px,7.4vw,86px);margin:20px 0 0}
+.hero p{max-width:52ch;margin:22px auto 0;color:var(--mute);font-size:17px}
+.tag{position:absolute;font-size:12px;font-weight:500;padding:5px 13px;border-radius:7px;color:#0b0b0d}
+.tag svg{position:absolute;top:-9px;right:-9px;width:16px}
+.fan{position:relative;height:340px;margin-top:40px;display:flex;justify-content:center;align-items:flex-end;overflow:hidden;mask-image:linear-gradient(#000 82%,transparent)}
+.fan .card{position:absolute;bottom:-70px;width:min(26vw,230px);aspect-ratio:3/4}
+.fan .c1{transform:translateX(-215%) rotate(-9deg)}.fan .c2{transform:translateX(-108%) translateY(-8px) rotate(-4.5deg)}
+.fan .c3{width:min(34vw,300px);bottom:-60px;z-index:3}
+.fan .c4{transform:translateX(108%) translateY(-8px) rotate(4.5deg)}.fan .c5{transform:translateX(215%) rotate(9deg)}
+.fan .btn{position:absolute;right:14px;top:12px;z-index:5}
+/* cards */
+.card{position:relative;overflow:hidden;border-radius:26px;padding:20px;display:flex;flex-direction:column;isolation:isolate;color:#fff;border:1px solid rgba(255,255,255,.18)}
+.card h4{margin:0;font:600 clamp(20px,2.6vw,28px)/1 var(--f);letter-spacing:-.03em}
+.card small{display:block;opacity:.7;font-size:13px;margin-top:5px}
+.card .o{position:absolute;border-radius:50%;z-index:-1}
+.card.dk{color:#0b0b0d}
+.card .bd{position:absolute;top:14px;right:14px;background:var(--yel);color:#0b0b0d;font:600 11px var(--f);padding:3px 10px;border-radius:99px}
+.k1{background:linear-gradient(160deg,#6b55d9,#3d3aa8)}.k2{background:linear-gradient(160deg,#ff7b86,#e0486a)}
+.k3{background:linear-gradient(160deg,#25aec4,#0f7f9a)}.k4{background:linear-gradient(160deg,#78e276,#3fbf6a)}
+.k5{background:linear-gradient(160deg,#5a56e0,#2b2d9c)}.k6{background:linear-gradient(160deg,#ffcf4a,#ff8a4a)}
+.o1{background:radial-gradient(circle at 32% 28%,#fff 0,rgba(255,255,255,.55) 18%,rgba(255,255,255,.12) 60%);box-shadow:inset -10px -14px 30px rgba(0,0,0,.25)}
+.o2{background:radial-gradient(circle at 30% 30%,#ffd3ec,#ff4fa0 55%,#9b1d73);box-shadow:inset -8px -10px 22px rgba(0,0,0,.3)}
+.o3{background:radial-gradient(circle at 30% 30%,#c9f6ff,#3fb4ff 55%,#2147c9)}
+.o4{background:radial-gradient(circle at 30% 30%,#fff7c2,#f6e640 60%,#c6a300)}
+.anim .o{animation:fl 3s ease-in-out infinite alternate}.anim .o:nth-of-type(2){animation-delay:-1.2s}
+@keyframes fl{to{transform:translateY(-14px) scale(1.08)}}
+@media (prefers-reduced-motion:reduce){.anim .o{animation:none}}
+.r45{aspect-ratio:4/5}.r11{aspect-ratio:1}.r23{aspect-ratio:2/3}.r916{aspect-ratio:9/16}
+.art,.im{position:absolute;inset:0;width:100%;height:100%;z-index:-1}.im{object-fit:cover}
+.art .wv{animation:wv 4s ease-in-out infinite alternate}@keyframes wv{to{transform:translateX(-10px)}}
+@media (prefers-reduced-motion:reduce){.art .wv{animation:none}}
+.card:has(.art),.card:has(.im){box-shadow:inset 0 -90px 70px -40px rgba(0,0,0,.25)}
+/* sections */
+section{padding:84px 0 20px}
+section h2{font-size:clamp(32px,5vw,56px)}
+.sub{color:var(--mute);margin:14px 0 28px;max-width:56ch}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.tabs button{background:var(--glass);border:1px solid var(--line);color:var(--mute);border-radius:999px;padding:9px 18px;font:500 14px var(--f);cursor:pointer}
+.tabs button[aria-pressed=true]{background:#fff;color:#0b0b0d;border-color:#fff}
+.grid{columns:4 230px;column-gap:16px}
+.item{break-inside:avoid;margin:0 0 16px}
+.item .card{border-radius:26px}
+.cap{padding:9px 6px 0;font-size:14px;color:var(--mute)}.cap b{display:block;color:var(--ink);font-weight:500}
+/* tiers */
+.tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px}
+.tier{text-align:left;font:inherit;cursor:pointer;min-height:230px;justify-content:space-between;opacity:.62;transition:opacity .2s,transform .2s}
+.tier[aria-pressed=true]{opacity:1;transform:translateY(-6px);box-shadow:0 0 0 2px #fff,0 18px 40px rgba(0,0,0,.5)}
+.tier .n{font:600 64px/1 var(--f);letter-spacing:-.05em}
+.tier .p{font-weight:500}
+.cust{display:none;margin-top:14px}.cust.on{display:block}
+.q{display:grid;grid-template-columns:1.1fr 1fr;gap:16px;margin-top:20px}
+.pan{background:var(--glass);border:1px solid var(--line);border-radius:26px;padding:24px;backdrop-filter:blur(10px)}
+.pan h3{font-size:24px;margin-bottom:14px}
+.ex label{display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-top:1px solid var(--line);cursor:pointer}
+.ex label:first-of-type{border-top:0}
+.ex input{margin-top:5px;accent-color:var(--yel);width:17px;height:17px}
+.ex em{margin-left:auto;font-style:normal;font-weight:500;white-space:nowrap}
+.ex small{color:var(--mute)}
+input[type=number],input[type=text],textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:rgba(0,0,0,.35);color:var(--ink);font:inherit}
+.f label{display:block;margin:14px 0 6px;font-size:14px;color:var(--mute)}
+.ln{display:flex;justify-content:space-between;font-size:15px;padding:4px 0;color:var(--mute)}
+.tot{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);margin-top:12px;padding-top:14px}
+.tot b{font:600 40px var(--f);letter-spacing:-.04em}
+.msg{font-size:13px;color:var(--mute);margin-top:10px;min-height:20px}
+footer{padding:60px 0 50px;color:var(--mute);font-size:14px}
+@media(max-width:820px){nav{grid-template-columns:1fr auto}nav .mid{display:none}.q{grid-template-columns:1fr}
+.fan{height:300px}.fan .card{width:34vw}.fan .c1,.fan .c5{display:none}.fan .c2{transform:translateX(-95%) rotate(-5deg)}.fan .c4{transform:translateX(95%) rotate(5deg)}.fan .c3{width:42vw}.tag{display:none}}
+.lang{display:flex;background:var(--glass);border:1px solid var(--line);border-radius:999px;padding:3px}
+.lang button{background:none;border:0;color:var(--mute);font:500 12px var(--f);padding:6px 10px;border-radius:999px;cursor:pointer}
+.lang button[aria-pressed=true]{background:#fff;color:#0b0b0d}
+</style>
+</head>
+<body>
+<div class="w">
+<nav><span class="logo">✱</span>
+  <div class="mid"><a href="#top" data-t="n1"></a><a href="#trabajos" data-t="n2"></a><a href="#paquetes" data-t="n3"></a></div>
+  <div class="r"><div class="lang" role="group" aria-label="Language"><button type="button" data-l="it">IT</button><button type="button" data-l="en">EN</button><button type="button" data-l="es">ES</button></div><a class="btn sm" href="#paquetes" data-t="n4"></a></div></nav>
+<header class="hero" id="top">
+  <span class="eyebrow"><b data-t="new"></b><span data-t="eb"></span></span>
+  <h1><span class="g" data-t="h1a"></span><br><span class="g"><span class="sc" data-t="h1c"></span><span data-t="h1b"></span></span></h1>
+  <p data-t="hp"></p>
+  <span class="tag" style="left:2%;top:210px;background:#4ec3b8"><span data-t="tag1"></span><svg viewBox="0 0 16 16"><path d="M1 1l13 5-5 2-2 6z" fill="#4ec3b8"/></svg></span>
+  <span class="tag" style="right:3%;top:270px;background:#ff7b86"><span data-t="tag2"></span><svg viewBox="0 0 16 16"><path d="M1 1l13 5-5 2-2 6z" fill="#ff7b86"/></svg></span>
+  <div class="fan" id="fan" aria-hidden="true"></div>
+</header>
+</div>
+<section id="trabajos"><div class="w">
+  <h2 class="g" data-t="w1"></h2>
+  <p class="sub" data-t="w2"></p>
+  <div class="tabs" id="tabs" role="group"></div>
+  <div class="grid" id="grid"></div>
+</div></section>
+<section id="paquetes"><div class="w">
+  <h2><span class="g2" data-t="p1"></span></h2>
+  <p class="sub" data-t="p2"></p>
+  <div class="tiers" id="tiers"></div>
+  <div class="cust" id="cust"><div class="pan"><label for="cn" data-t="cn"></label><br><br><input id="cn" type="number" min="60" step="5" value="100"></div></div>
+  <div class="q">
+    <div class="pan ex"><h3 data-t="ex"></h3><div id="extras"></div></div>
+    <div class="pan f"><h3 data-t="or"></h3>
+      <div id="lines"></div>
+      <div class="tot"><span data-t="tt"></span><b id="total"></b></div>
+      <label for="nm" data-t="nm"></label><input id="nm" type="text" autocomplete="name">
+      <label for="nt" data-t="nt"></label><textarea id="nt" rows="3" data-p="ph"></textarea>
+      <p style="margin:18px 0 0"><button class="btn" id="send" type="button"><span data-t="send"></span> <span class="ar">↗</span></button></p>
+      <div class="msg" id="msg" aria-live="polite"></div>
+    </div>
+  </div>
+</div></section>
+<div class="w"><footer id="foot"></footer></div>
+<script>
+/* ====== EDITA AQUÍ / EDIT HERE ======
+   Para usar tus fotos reales: añade img:"data:image/jpeg;base64,..." a cada trabajo de WORKS */
+const CFG={marca:"Tu Nombre · Diseño",whatsapp:"5491100000000",moneda:"$"};
+const TIERS=[{n:10,ppp:15,k:"k1"},{n:20,ppp:13,k:"k2",tag:"pop"},{n:30,ppp:12,k:"k3"},{n:50,ppp:10,k:"k4",dk:1,tag:"best"},{n:"60+",ppp:8,k:"k5",c:1}];
+const EXTRAS=[{id:"anim",ppp:4},{id:"story",ppp:2},{id:"copy",ppp:1.5}];
+const WORKS=[
+ {t:["Noche de Verano","Notte d’Estate","Summer Night"],c:"flyer",k:"kflyer",r:"r45",s:"k1"},
+ {t:["Lanzamiento Café Norte","Lancio Caffè Nord","Café Norte Launch"],c:"redes",k:"kredes",r:"r11",s:"k2"},
+ {t:["Festival Electrónico","Festival Elettronico","Electronic Festival"],c:"anim",k:"kanim",r:"r916",s:"k3",a:1},
+ {t:["Gran Inauguración","Grande Inaugurazione","Grand Opening"],c:"cartel",k:"kcartel",r:"r23",s:"k6",dk:1},
+ {t:["Rebajas de Otoño","Saldi d’Autunno","Fall Sale"],c:"redes",k:"kredes",r:"r11",s:"k4",dk:1},
+ {t:["Fiesta Latina","Festa Latina","Latin Party"],c:"flyer",k:"kflyer",r:"r45",s:"k2"},
+ {t:["DJ Set Viernes","DJ Set del Venerdì","Friday DJ Set"],c:"anim",k:"kanim",r:"r45",s:"k5",a:1},
+ {t:["Concierto en Vivo","Concerto dal Vivo","Live Concert"],c:"cartel",k:"kcartel",r:"r23",s:"k3"},
+ {t:["Menú de la Semana","Menu della Settimana","Weekly Menu"],c:"redes",k:"kredes",r:"r45",s:"k6",dk:1},
+ {t:["Black Friday Story","Black Friday Story","Black Friday Story"],c:"anim",k:"kstory",r:"r916",s:"k1",a:1}
+];
+const CATS=["todos","flyer","redes","anim","cartel"];
+const HERO=[["f1","f1s","k1"],["f2","f2s","k2"],["f3","f3s","k3",1],["f4","f4s","k4",0,1],["f5","f5s","k5"]];
+const T={
+es:{n1:"Inicio",n2:"Trabajos",n3:"Paquetes",n4:"Contratar",new:"Nuevo",eb:"Paquetes desde 10 piezas",h1a:"Diseña tu identidad",h1c:"C",h1b:"onquista tu feed",
+hp:"Flyers para eventos, piezas para redes, flyers animados y carteles. Contrata tu contenido por paquetes de 10, 20, 30, 50 piezas o más.",tag1:"Flyers",tag2:"Reels",start:"Empezar",
+f1:"Flyers",f1s:"Eventos",f2:"Redes",f2s:"Posts y carruseles",f3:"Animados",f3s:"Flyers en movimiento",f4:"Carteles",f4s:"Impresos",f5:"Stories",f5s:"Formato 9:16",
+w1:"Trabajos recientes",w2:"Una muestra de lo último que he diseñado. Filtra por tipo de pieza.",
+todos:"Todos",flyer:"Flyers de eventos",redes:"Redes sociales",anim:"Flyers animados",cartel:"Carteles",
+kflyer:"Flyer de evento",kredes:"Pieza para redes",kanim:"Flyer animado",kcartel:"Cartel",kstory:"Story animada",bd:"▶ animado",
+p1:"Paquetes para redes sociales",p2:"Entre más piezas, menor el precio por pieza. Elige un paquete, añade extras y envíame tu pedido por WhatsApp.",
+pieces:"piezas",per:"por pieza",pop:"Popular",best:"Mejor precio",cn:"¿Cuántas piezas necesitas? (mínimo 60)",
+ex:"Extras",anim_t:"Animar piezas (movimiento)",anim_d:"Cada pieza animada para stories y reels",story_t:"Versión extra en formato story 9:16",story_d:"Adaptación de cada pieza",copy_t:"Textos y hashtags para cada publicación",copy_d:"Listo para copiar y pegar",ppp:"/pieza",
+or:"Tu pedido",tt:"Total estimado",nm:"Tu nombre o marca",nt:"Cuéntame de tu proyecto",ph:"Rubro, colores, redes donde publicas…",send:"Enviar por WhatsApp",
+err:"Escribe tu nombre o marca para enviar el pedido.",open:"Abriendo WhatsApp con tu pedido…",foot:"Los precios son estimados y pueden ajustarse según el proyecto.",
+wa:"Hola, quiero contratar un paquete de {n} piezas para redes sociales.",wtot:"Total estimado",wnm:"Nombre/marca",wpr:"Proyecto",title:"Estudio de diseño gráfico · Portafolio y paquetes"},
+it:{n1:"Home",n2:"Lavori",n3:"Pacchetti",n4:"Ordina",new:"Novità",eb:"Pacchetti da 10 pezzi",h1a:"Costruisci la tua identità",h1c:"C",h1b:"onquista il tuo feed",
+hp:"Flyer per eventi, grafiche per i social, flyer animati e locandine. Ordina i tuoi contenuti in pacchetti da 10, 20, 30, 50 pezzi o più.",tag1:"Flyer",tag2:"Reel",start:"Inizia",
+f1:"Flyer",f1s:"Eventi",f2:"Social",f2s:"Post e caroselli",f3:"Animati",f3s:"Flyer in movimento",f4:"Locandine",f4s:"Stampa",f5:"Stories",f5s:"Formato 9:16",
+w1:"Lavori recenti",w2:"Una selezione dei miei ultimi design. Filtra per tipo di grafica.",
+todos:"Tutti",flyer:"Flyer per eventi",redes:"Social media",anim:"Flyer animati",cartel:"Locandine",
+kflyer:"Flyer per eventi",kredes:"Grafica per i social",kanim:"Flyer animato",kcartel:"Locandina",kstory:"Story animata",bd:"▶ animato",
+p1:"Pacchetti per i social media",p2:"Più pezzi scegli, meno paghi per pezzo. Scegli un pacchetto, aggiungi gli extra e inviami l’ordine su WhatsApp.",
+pieces:"pezzi",per:"a pezzo",pop:"Popolare",best:"Miglior prezzo",cn:"Di quanti pezzi hai bisogno? (minimo 60)",
+ex:"Extra",anim_t:"Animazione delle grafiche",anim_d:"Ogni grafica animata per stories e reel",story_t:"Versione extra in formato story 9:16",story_d:"Adattamento di ogni grafica",copy_t:"Testi e hashtag per ogni post",copy_d:"Pronti da copiare e incollare",ppp:"/pezzo",
+or:"Il tuo ordine",tt:"Totale stimato",nm:"Il tuo nome o brand",nt:"Raccontami il tuo progetto",ph:"Settore, colori, social su cui pubblichi…",send:"Invia su WhatsApp",
+err:"Scrivi il tuo nome o brand per inviare l’ordine.",open:"Apro WhatsApp con il tuo ordine…",foot:"I prezzi sono indicativi e possono variare in base al progetto.",
+wa:"Ciao, vorrei ordinare un pacchetto da {n} pezzi per i social media.",wtot:"Totale stimato",wnm:"Nome/brand",wpr:"Progetto",title:"Studio di grafica · Portfolio e pacchetti"},
+en:{n1:"Home",n2:"Work",n3:"Packages",n4:"Hire me",new:"New",eb:"Packages from 10 pieces",h1a:"Design your identity",h1c:"C",h1b:"onquer your feed",
+hp:"Event flyers, social media pieces, animated flyers and posters. Order your content in bundles of 10, 20, 30, 50 pieces or more.",tag1:"Flyers",tag2:"Reels",start:"Get started",
+f1:"Flyers",f1s:"Events",f2:"Social",f2s:"Posts and carousels",f3:"Animated",f3s:"Flyers in motion",f4:"Posters",f4s:"Print",f5:"Stories",f5s:"9:16 format",
+w1:"Recent work",w2:"A selection of my latest designs. Filter by type of piece.",
+todos:"All",flyer:"Event flyers",redes:"Social media",anim:"Animated flyers",cartel:"Posters",
+kflyer:"Event flyer",kredes:"Social media piece",kanim:"Animated flyer",kcartel:"Poster",kstory:"Animated story",bd:"▶ animated",
+p1:"Social media packages",p2:"The more pieces you pick, the lower the price per piece. Choose a package, add extras and send me your order on WhatsApp.",
+pieces:"pieces",per:"per piece",pop:"Popular",best:"Best value",cn:"How many pieces do you need? (minimum 60)",
+ex:"Extras",anim_t:"Animate the pieces (motion)",anim_d:"Every piece animated for stories and reels",story_t:"Extra 9:16 story version",story_d:"Adaptation of every piece",copy_t:"Captions and hashtags for every post",copy_d:"Ready to copy and paste",ppp:"/piece",
+or:"Your order",tt:"Estimated total",nm:"Your name or brand",nt:"Tell me about your project",ph:"Industry, colors, platforms you post on…",send:"Send on WhatsApp",
+err:"Enter your name or brand to send the order.",open:"Opening WhatsApp with your order…",foot:"Prices are estimates and may change depending on the project.",
+wa:"Hi, I’d like to order a package of {n} pieces for social media.",wtot:"Estimated total",wnm:"Name/brand",wpr:"Project",title:"Graphic design studio · Portfolio and packages"}
+};
+/* ===================================== */
+const $=s=>document.querySelector(s),LN=["es","it","en"];
+let lang="it";try{const s=localStorage.getItem("lang");if(LN.includes(s))lang=s}catch(e){}
+const t=k=>T[lang][k];
+const fmt=v=>CFG.moneda+(Math.round(v*100)/100).toLocaleString(lang);
+const A=(k,i)=>{let z=i*7+3;const r=()=>(z=(z*9301+49297)%233280)/233280,p=n=>Math.round(r()*n),W="rgba(255,255,255,",B="rgba(0,0,0,";let g="";
+if(k==="flyer"){const x=55+p(30),y=48+p(14);for(let j=0;j<16;j++){const a=j*Math.PI/8;g+=`<path d="M${x} ${y}L${x+Math.cos(a)*90} ${y+Math.sin(a)*90}" stroke="${W}.${j%2?10:20})" stroke-width="5"/>`}g+=`<circle cx="${x}" cy="${y}" r="24" fill="${W}.28)"/><circle cx="${x}" cy="${y}" r="12" fill="${W}.85)"/><path d="M0 ${84+p(8)}Q50 ${68+p(10)} 100 ${86+p(6)}V100H0z" fill="${B}.28)"/>`}
+else if(k==="redes"){for(let a=0;a<4;a++)for(let b=0;b<4;b++)g+=`<rect x="${10+b*21}" y="${34+a*16}" width="17" height="12" rx="4" fill="${W}.${(8+p(24))/100})"/>`;g+=`<circle cx="${70+p(15)}" cy="${28+p(10)}" r="13" fill="${W}.5)"/>`}
+else if(k==="anim"){for(let j=0;j<6;j++){const y=40+j*10;g+=`<path class="wv" d="M-10 ${y}Q10 ${y-12} 30 ${y}T70 ${y}T110 ${y}" fill="none" stroke="${W}${j%2?.25:.55})" stroke-width="3" stroke-linecap="round"/>`}g+=`<circle cx="${25+p(50)}" cy="26" r="10" fill="${W}.9)"/>`}
+else{for(let j=0;j<4;j++)g+=`<path d="M${j*25+3} 100V${60-j%2*14}a10 10 0 0 1 19 0V100z" fill="${j%2?B+".22)":W+".3)"}"/>`;g+=`<circle cx="${50+p(25)}" cy="${28+p(8)}" r="16" fill="${W}.8)"/>`}
+return `<svg class="art" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true">${g}</svg>`};
+const blobs='<i class="o o1" style="width:62%;aspect-ratio:1;right:-8%;bottom:-6%"></i><i class="o o2" style="width:30%;aspect-ratio:1;left:12%;bottom:22%"></i><i class="o o3" style="width:20%;aspect-ratio:1;right:18%;top:38%"></i>';
+function card(o,extra=""){return `<div class="card ${o.s} ${o.r||""} ${o.dk?"dk":""} ${o.a?"anim":""} ${extra}">${o.a?`<span class="bd">${t("bd")}</span>`:""}<h4>${o.h}</h4><small>${o.sm}</small>${o.img?`<img class="im" src="${o.img}" alt="${o.h}" loading="lazy">`:o.c?A(o.c,o.i||0):blobs}</div>`}
+let cat="todos",sel=1;const ex=new Set();
+function qty(){return TIERS[sel].c?Math.max(60,parseInt($("#cn").value)||60):TIERS[sel].n}
+function drawFan(){$("#fan").innerHTML=HERO.map((h,i)=>card({h:t(h[0]),sm:t(h[1]),s:h[2],a:h[3],dk:h[4],c:["flyer","redes","anim","cartel","anim"][i],i:i+1},"c"+(i+1))).join("")+`<a class="btn" href="#paquetes">${t("start")} <span class="ar">↗</span></a>`}
+function drawTabs(){$("#tabs").innerHTML=CATS.map(k=>`<button type="button" data-k="${k}" aria-pressed="${k===cat}">${t(k)}</button>`).join("")}
+function drawGrid(){$("#grid").innerHTML=WORKS.map((w,i)=>({...w,i})).filter(w=>cat==="todos"||w.c===cat).map(w=>`<figure class="item" style="margin:0 0 16px">${card({...w,h:w.t[LN.indexOf(lang)],sm:t(w.k)})}</figure>`).join("")}
+function drawTiers(){
+  $("#tiers").innerHTML=TIERS.map((x,i)=>`<button type="button" class="card tier ${x.k} ${x.dk?"dk":""}" data-i="${i}" aria-pressed="${i===sel}">${x.tag?`<span class="bd">${t(x.tag)}</span>`:""}<div><small style="margin:0 0 6px">${t("pieces")}</small><div class="n">${x.n}</div></div><div class="p">${fmt(x.ppp)} ${t("per")}</div>${blobs}</button>`).join("");
+  $("#cust").classList.toggle("on",!!TIERS[sel].c);
+}
+function drawExtras(){$("#extras").innerHTML=EXTRAS.map(e=>`<label><input type="checkbox" value="${e.id}" ${ex.has(e.id)?"checked":""}><span>${t(e.id+"_t")}<br><small>${t(e.id+"_d")}</small></span><em>+${fmt(e.ppp)}${t("ppp")}</em></label>`).join("")}
+function calc(){
+  const n=qty(),x=TIERS[sel];let rows=[[`${n} ${t("pieces")} × ${fmt(x.ppp)}`,n*x.ppp]];
+  EXTRAS.filter(e=>ex.has(e.id)).forEach(e=>rows.push([`${t(e.id+"_t")} × ${n}`,n*e.ppp]));
+  const tot=rows.reduce((a,r)=>a+r[1],0);
+  $("#lines").innerHTML=rows.map(r=>`<div class="ln"><span>${r[0]}</span><span>${fmt(r[1])}</span></div>`).join("");
+  $("#total").textContent=fmt(tot);
+  return {n,rows,tot};
+}
+function render(){
+  document.documentElement.lang=lang;document.title=t("title");
+  document.querySelectorAll("[data-t]").forEach(e=>e.textContent=t(e.dataset.t));
+  document.querySelectorAll("[data-p]").forEach(e=>e.placeholder=t(e.dataset.p));
+  document.querySelectorAll(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===lang));
+  $("#tabs").setAttribute("aria-label",t("w1"));
+  $("#foot").textContent="© "+new Date().getFullYear()+" "+CFG.marca+". "+t("foot");
+  $("#msg").textContent="";
+  drawFan();drawTabs();drawGrid();drawTiers();drawExtras();calc();
+}
+document.querySelector(".lang").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;lang=b.dataset.l;try{localStorage.setItem("lang",lang)}catch(x){}render()});
+$("#tabs").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;cat=b.dataset.k;drawTabs();drawGrid()});
+$("#tiers").addEventListener("click",e=>{const b=e.target.closest(".tier");if(!b)return;sel=+b.dataset.i;drawTiers();calc()});
+$("#extras").addEventListener("change",e=>{e.target.checked?ex.add(e.target.value):ex.delete(e.target.value);calc()});
+$("#cn").addEventListener("input",calc);
+$("#send").addEventListener("click",()=>{
+  const {n,rows,tot}=calc(),nm=$("#nm").value.trim(),nt=$("#nt").value.trim();
+  if(!nm){$("#msg").textContent=t("err");$("#nm").focus();return}
+  const txt=t("wa").replace("{n}",n)+"\n"+rows.map(r=>`• ${r[0]}: ${fmt(r[1])}`).join("\n")+`\n${t("wtot")}: ${fmt(tot)}\n${t("wnm")}: ${nm}`+(nt?`\n${t("wpr")}: ${nt}`:"");
+  $("#msg").textContent=t("open");
+  window.open("https://wa.me/"+CFG.whatsapp+"?text="+encodeURIComponent(txt),"_blank","noopener");
+});
+render();
+</script>
+</body>
+</html>
